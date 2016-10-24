@@ -1,86 +1,104 @@
-#
-# This file contains configuration flags to customize your site
-#
 
-# Name of your site (displayed in the header)
-name: Your Name
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Name – Web Developer from Somewhere</title>
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+    
+    <meta name="description" content="Web Developer from Somewhere">
+    <meta property="og:description" content="Web Developer from Somewhere" />
+    
+    <meta name="author" content="Your Name" />
 
-#
-# Flags below are optional
-#
+    
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/2016web2-5/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Your Name - Web Developer from Somewhere" href="/2016web2-5/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/2016web2-5/" class="site-avatar"><img src="https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/2016web2-5/">Your Name</a></h1>
+            <p class="site-description">Web Developer from Somewhere</p>
+          </div>
+
+          <nav>
+            <a href="/2016web2-5/">Blog</a>
+            <a href="/2016web2-5/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <div class="posts">
+  
+    <article class="post">
+
+      <h1><a href="/2016web2-5/2nd_update/">2度めの更新</a></h1>
+
+      <div class="entry">
+        <p>このように
+ファイルを次々と追加していきます。</p>
+
+      </div>
+
+      <a href="/2016web2-5/2nd_update/" class="read-more">Read More</a>
+    </article>
+  
+    <article class="post">
+
+      <h1><a href="/2016web2-5/Hello-World/">はじめてのJekyll</a></h1>
+
+      <div class="entry">
+        <p>次に、リポジトリのルートにある _config.yml の、サイト名やほかのオプションを変更しましょう</p>
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+      </div>
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+      <a href="/2016web2-5/Hello-World/" class="read-more">Read More</a>
+    </article>
+  
+</div>
+    </div>
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
 
-permalink: /:title/
+<a href="https://github.com/barryclark/jekyll-now"><i class="svg-icon github"></i></a>
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
 
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+<a href="https://www.twitter.com/jekyllrb"><i class="svg-icon twitter"></i></a>
 
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
